@@ -6,3 +6,4 @@
 
 ### Launch your development career with project-based coaching on [JS Mastery Pro](https://www.jsmastery.pro).
 # learn-spotify
+# learn-spotify
