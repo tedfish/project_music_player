@@ -75,7 +75,7 @@ const TopPlay = () => {
   return (
     <div
       ref={divRef}
-      className="xl:ml-6 ml-1 xl:mb-0 mb-6 flex-1 xl:max-w-[500px] max-w-full flex flex-col"
+      className="xl:ml-6 ml-1 xl:mb-0 mb-6 flex-1 xl:max-w-[500px] max-w-full flex flex-col mt-10"
     >
       <div className="w-full flex flex-col">
         <div className="flex flex-row justify-between items-center">
@@ -117,7 +117,7 @@ const TopPlay = () => {
           modules={[FreeMode]}
           className="mt-4"
         >
-          {topPlays?.slice(0, 5).map((artist) => (
+          {topPlays?.slice(0, 10).map((artist) => (
             <SwiperSlide
               key={artist?.key}
               style={{ width: "25%", height: "auto" }}
